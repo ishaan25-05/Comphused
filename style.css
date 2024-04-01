@@ -4,6 +4,7 @@
 body{
     padding: 0;
     margin:0;
+    background-color: black;
 }
 .navbar {
     background-color: black;
@@ -37,7 +38,7 @@ li a {
     margin-right: 100px;
 }
 
-button {
+.signup {
     background-color: rgb(155, 12, 232);
     margin-left: 10px;
     border-radius: 40px;
@@ -46,10 +47,4 @@ button {
 
 }
 
-button a {
-    color: white;
-    font-weight: bold;
-}
-.ra{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
