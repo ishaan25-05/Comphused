@@ -38,21 +38,9 @@ li a {
     margin-right: 100px;
 }
 
-button {
+.signup {
     background-color: rgb(155, 12, 232);
     margin-left: 10px;
     border-radius: 40px;
     padding: 10px;
-    width: 90px; 
-}
 
-button a {
-    color: white;
-    font-weight: bolder;
-}
-h1{
-    color: whitesmoke;
-}
-p{
-    color:whitesmoke;
-}
