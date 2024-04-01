@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color:black;
+    font-family: Luminari, fantasy;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.navdiv{
+    display: flex; align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    color: cyan;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+button{
+    background-color: rgb(155, 12, 232);
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 90;
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
