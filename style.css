@@ -4,6 +4,7 @@
 body{
     padding: 0;
     margin:0;
+    background-image: url("backgroundjpg.jpg");
 }
 .navbar {
     background-color: black;
@@ -42,10 +43,16 @@ button {
     margin-left: 10px;
     border-radius: 40px;
     padding: 10px;
-    width: 90px; /* Corrected width value */
+    width: 90px; 
 }
 
 button a {
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
+}
+h1{
+    color: whitesmoke;
+}
+p{
+    color:whitesmoke;
 }
