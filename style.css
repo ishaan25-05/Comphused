@@ -1,7 +1,10 @@
 * {
     text-decoration: none;
 }
-
+body{
+    padding: 0;
+    margin:0;
+}
 .navbar {
     background-color: black;
     font-family: Luminari, fantasy;
