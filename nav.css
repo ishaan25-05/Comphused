@@ -27,7 +27,6 @@ body {
   justify-content: center;
   text-decoration: none;
   display: flex;
-
   height: 100px;
   max-width: auto; /* Set maximum width */
   font-size: 50px;
