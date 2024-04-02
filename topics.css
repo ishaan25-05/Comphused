@@ -100,7 +100,10 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(90deg, #e52e71, #ff8a00);
+  background: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8592.jpg?w=1380&t=st=1712050783~exp=1712051383~hmac=3f20aec8c862cb5d40f379bace252ac4e128e4c1226dacf7cd3c6527155c426b);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .card {
   height: 400px;
