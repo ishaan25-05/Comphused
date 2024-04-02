@@ -1,100 +1,100 @@
-.main
-{
-    margin: 0;
-    font-family: 'prompt',sans-serif;
-    color: yellow;
-    /* background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%); */
-    height: 350px;
-    border-radius: 30px;
-    text-align: center;
+.main {
+  margin: 0;
+  font-family: "prompt", sans-serif;
+  color: yellow;
+  /* background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%); */
+  height: 350px;
+  border-radius: 30px;
+  text-align: center;
 }
 
-.container 
-{
-    height: 400px;
-   /* background-image:url(https://www.shutterstock.com/image-illustration/colourful-bubble-black-background-hd-260nw-2241037801.jpg); */
-   /* background-repeat: no-repeat;  */
-   /* background-size: cover; */
-   display: flex;
-    flex-direction: row;   
-    justify-content: space-around;
-    border-radius: 30px;
+.container {
+  height: 400px;
+  /* background-image:url(https://www.shutterstock.com/image-illustration/colourful-bubble-black-background-hd-260nw-2241037801.jpg); */
+  /* background-repeat: no-repeat;  */
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: row;
+  flex: 0.8;
+  justify-content: space-around;
+  border-radius: 30px;
+  align-items: center;
+  background: #acb2c7;
 }
-.left
-{
-   position: relative;
-   height: 300px;
-   flex: 0.6;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   background: #060c21;
-   color: white;
-   font-size: 100px;
-   filter: brightness(50%);
-   border-radius: 20px;
+.left {
+  position: relative;
+  height: 300px;
+  flex: 0.6;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #060c21;
+  color: white;
+  font-size: 100px;
+  filter: brightness(90%);
+  border-radius: 20px;
 }
-.left:hover
-{
-    box-shadow: 0 0 40px yellow;
-    border: 1px solid yellow;
-    filter: brightness(80%);
-    transition: 0.25s;
-}
-
-.right{
-    position: relative;
-    height: 300px;
-    flex: 0.3;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background: #060c21;
-    filter: brightness(60%);
-    border-radius: 20px;
-}
-.right:hover
-{
-    box-shadow: 0 0 40px yellow;
-    border: 1px solid yellow;
-    filter: brightness(80%);
-    transition: 0.25s;
-}
-.leftimage
-{
-   position: relative;
-   height: 300px;
-   flex: 0.3;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   background: #060c21;
-   filter: brightness(50%);
-   border-radius: 20px;
-}
-.leftimage:hover
-{
-    box-shadow: 0 0 40px yellow;
-    border: 1px solid yellow;
-    filter: brightness(80%);
-    transition: 0.25s;
+.left:hover {
+  box-shadow: 0 0 40px yellow;
+  border: 1px solid yellow;
+  filter: brightness(120%);
+  transition: 0.25s;
 }
 
-.rightimage{
-    position: relative;
-    height: 300px;
-    flex: 0.6;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background: #060c21;
-    filter: brightness(60%);
-    border-radius: 20px;
+.right {
+  position: relative;
+  height: 300px;
+  flex: 0.3;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #060c21;
+  color: white;
+  filter: brightness(90%);
+  border-radius: 20px;
 }
-.rightimage:hover
-{
-    box-shadow: 0 0 40px yellow;
-    border: 1px solid yellow;
-    filter: brightness(80%);
-    transition: 0.25s;
+.right:hover {
+  box-shadow: 0 0 40px yellow;
+  border: 1px solid yellow;
+  filter: brightness(120%);
+  transition: 0.25s;
+}
+.leftimage {
+  position: relative;
+  height: 300px;
+  flex: 0.3;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #060c21;
+  filter: brightness(50%);
+  border-radius: 20px;
+}
+.leftimage:hover {
+  box-shadow: 0 0 40px yellow;
+  border: 1px solid yellow;
+  filter: brightness(80%);
+  transition: 0.25s;
+}
+
+.rightimage {
+  position: relative;
+  height: 300px;
+  flex: 0.6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #060c21;
+  filter: brightness(60%);
+  border-radius: 20px;
+}
+.rightimage:hover {
+  box-shadow: 0 0 40px yellow;
+  border: 1px solid yellow;
+  filter: brightness(80%);
+  transition: 0.25s;
+}
+.center {
+  margin: auto;
+  width: 50%;
 }
