@@ -98,3 +98,25 @@
   margin: auto;
   width: 50%;
 }
+body {
+  height: 100vh;
+  background: linear-gradient(90deg, #e52e71, #ff8a00);
+}
+.card {
+  height: 400px;
+  width: 90%;
+  align-self: center;
+  vertical-align: middle;
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 0.8;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  align-items: center;
+}
